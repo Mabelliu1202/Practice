@@ -1,0 +1,230 @@
+\documentclass[cjjs]{ipart}
+
+\RequirePackage{hyperref}
+
+\startlocaldefs
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]
+\def\SM#1#2{\sum_{#1\in #2}}
+\def\FL#1{\left\lfloor #1 \right\rfloor}
+\def\FR#1#2{{\frac{#1}{#2}}}
+\endlocaldefs
+
+%%  Settings
+\pubyear{2025}
+\volume{2}
+\issue{1}
+\firstpage{1}
+\lastpage{5}
+\arxiv{0000.0000}
+
+\begin{document}
+
+\begin{frontmatter}
+\title[This is a book]{This is a book\protect\thanksref{T1}}
+\thankstext{T1}{Thanks Professor Yau's support.}
+
+\begin{aug}
+    \author{\fnms{Mabel} \snm{Liu}\thanksref{t2}\ead[label=e1]{yassist@math.ntu.edu.tw}},
+    \address{No. 120 Da An Road \\
+             Taiwan\\
+             \printead{e1}}
+    \author{\fnms{Leslie} \snm{Liu}\ead[label=e2]{yassist@tims.ntu.edu.tw}},
+    \address{ No. 121 Da she Road\\
+             Taiwan\\
+             \printead{e2}}
+    \and
+    \author{\fnms{May} \snm{Liu}
+            \ead[label=e3]{ml1202tw@yahoo.com.tw}%
+            \ead[label=u1,url]{http://www.ntu.edu.tw}}
+    \address{No.122 Da Chi Road\\
+             Taiwan\\
+             \printead{e3}\\
+             \printead{u1}}
+    \thankstext{t2}{Thanks Professor Yu's support.}
+\end{aug}
+%
+\received{\sday{15} \smonth{4} \syear{2024}}
+
+\begin{abstract} Abstract:
+This is a nice book. People love this book very much. 
+
+\end{abstract}
+
+
+\begin{keyword}
+\kwd{AI}
+\kwd{GPT}
+\kwd{Deepseek}
+\end{keyword}
+
+
+%\tableofcontents
+\end{frontmatter}
+
+\section{Introduction}
+
+This book is very interesting about AI description. 
+
+\begin{table*}
+\tabcolsep=0pt
+\caption{The spherical case ($I_1=0$, $I_2=0$)}\label{sphericcase}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}crrrrc}
+\hline
+ Equil. Points & \multicolumn{1}{c}{$x$} & \multicolumn{1}{c}{$y$} & \multicolumn{1}{c}{$z$} & \multicolumn{1}{c}{$C$} &
+S \\
+\hline
+$L_1$ & $-$2.485252241 & 0.000000000 & 0.017100631 & 8.230711648 & U \\
+$L_2$ &    0.000000000 & 0.000000000 & 3.068883732 & 0.000000000 & S \\
+$L_3$ &    0.009869059 & 0.000000000 & 4.756386544 & $-$0.000057922 & U \\
+$L_4$ &    0.210589855 & 0.000000000 & $-$0.007021459 & 9.440510897 & U \\
+$L_5$ &    0.455926604 & 0.000000000 & $-$0.212446624 & 7.586126667 & U \\
+$L_6$ &    0.667031314 & 0.000000000 & 0.529879957 & 3.497660052 & U \\
+$L_7$ &    2.164386674 & 0.000000000 & $-$0.169308438 & 6.866562449 & U \\
+$L_8$ &    0.560414471 & 0.421735658 & $-$0.093667445 & 9.241525367 & U \\
+$L_9$ &    0.560414471 & $-$0.421735658 & $-$0.093667445 & 9.241525367 & U\\
+$L_{10}$ & 1.472523232 & 1.393484549 & $-$0.083801333 & 6.733436505 & U \\
+$L_{11}$ & 1.472523232 & $-$1.393484549 & $-$0.083801333 & 6.733436505 & U
+\\ \hline
+\end{tabular*}
+\end{table*}
+
+\section{Definition}
+This is a BOOK AI1.0 and AI2.0. 
+
+Book\footnote{This is a sample of book.}
+and paper\footnote{This is a sample of paper}.
+
+\section{Lemmas & Theorems}
+
+
+\begin{itemize}
+\item  This is a AI1.0 book. 
+\item  This is a AI2.0 book. 
+
+
+\[  x' + y^{2} = z_{i}^{2}.\] This is a AI1 book. 
+\\Example of a theorem:
+
+\begin{thm}
+It is interesting about AI problems. 
+\end{thm}
+
+\begin{proof}
+Obvious result. 
+\end{proof}
+
+\section{Proofs}
+
+and also in Table~\ref{parset}.
+
+\begin{table}
+\centering
+\caption{Parameter sets used by Bajpai and Reu\ss are not detailed sufficiently to permit a similar analysis}
+\label{parset}
+\begin{tabular}{lrll}
+\hline
+\multicolumn{2}{@{}l}{Parameter} & Set 1 & Set 2\\
+\hline
+$\mu_{x}$           & [h$^{-1}$]  & 0.092       & 0.11          \\
+$K_{x}$             & [g/g DM]     & 0.15        & 0.006         \\
+$\mu_{p}$           & [g/g DM h]  & 0.005       & 0.004         \\
+$K_{p}$             & [g/L]        & 0.0002      & 0.0001        \\
+$K_{i}$             & [g/L]        & 0.1         & 0.1           \\
+$Y_{x/s}$           & [g DM/g]     & 0.45        & 0.47          \\
+$Y_{p/s}$           & [g/g]        & 0.9         & 1.2           \\
+$k_{h}$             & [h$^{-1}$]  & 0.04        & 0.01          \\
+$m_{s}$             & [g/g DM h]  & 0.014       & 0.029         \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}
+\centering
+\fbox{\makebox[5cm][c]{Picture}\rule[-1.5cm]{0pt}{3cm}}
+%\includegraphics{}\input{Test 3}
+\caption{Pathway of the penicillin G biosynthesis.}\label{penG}
+\end{figure}
+
+
+\section{Conclusion}
+This is a AI1.0 & AI2.0. 
+\subsection{This is a book AI3.0}
+This is a book AI3.0.
+
+Two equations:
+\begin{equation}
+    C_{s}  =  K_{M} \frac{\mu/\mu_{x}}{1-\mu/\mu_{x}} \label{ccs}
+\end{equation}
+and
+\begin{equation}
+    G = \frac{P_{\rm opt} - P_{\rm ref}}{P_{\rm ref}} \mbox{\ }100 \mbox{\ }(\%).
+\end{equation}
+
+Two equation arrays:
+\begin{align}
+  \frac{dS}{dt} & =  - \sigma X + s_{F} F\\
+  \frac{dX}{dt} & =    \mu    X\\
+  \frac{dP}{dt} & =    \pi    X - k_{h} P\\
+  \frac{dV}{dt} & =    F
+\end{align}
+and
+\begin{align}
+ \mu_{\rm substr} & =  \mu_{x} \frac{C_{s}}{K_{x}C_{x}+C_{s}}  \\
+ \mu              & =  \mu_{\rm substr} - Y_{x/s}(1-H(C_{s}))(m_{s}+\pi /Y_{p/s}) \\
+ \sigma           & =  \mu_{\rm substr}/Y_{x/s}+ H(C_{s}) (m_{s}+ \pi /Y_{p/s})
+\end{align}
+
+Long equation:
+\begin{align}
+\SM u{C^+}\FL{\FR{w'(u)}m}&\le \FL{\SM u{C^+} \FR{w'(u)}m}\nonumber\\ &\le
+\FL{\FR{r(v)+\SM u{C^+} w(u)}m} = \FL{\FR{w(v)-\SM u{C^-} w(u)}m}\nonumber\\
+&\le \FL{\FR{w(v)}m}-\SM u{C^-}\FL{\FR{w(u)}m}
+= s(v)+\SM u{C^+}\FL{\FR{w(u)}m}
+\end{align}
+and
+\begin{align}
+\SM u{C^-}\FL{\FR{w(u)}m}&\le \FL{\SM u{C^-} \FR{w(u)}m}\nonumber\\ & \le
+\FL{\FR{r'(v)+\SM u{C^-} w'(u)}m} = \FL{\FR{w'(v)-\SM u{C^+} w'(u)}m}\nonumber\\
+&\le \FL{\FR{w'(v)}m}-\SM u{C^+}\FL{\FR{w'(u)}m}
+= s'(v)+\SM u{C^-}\FL{\FR{w'(u)}m}.
+\end{align}
+This time we have
+\begin{align*}
+f(S)-f(T) =    {}  &  D_k^T(1+C_{\geq k+1}^T)(1 + C) + C_k^T(1+D_{\geq k+1}^T)(1 + D) \\
+        {}   &  - C_k^T(1+C_{\geq k+1}^T)(1 + C) - D_k^T(1+D_{\geq k+1}^T)(1 + D)   \\
+=     {} &   (D_k^T-C_k^T)[(1+C_{\geq k+1})(1+C)-(1+D_{\geq
+k+1}^T)(1+D)]>0.
+\end{align*}
+
+\appendix
+
+\section{Appendix section}\label{app}
+
+An interesting books about AI. 
+
+\subsection{Appendix subsection}
+
+
+\mathcal{P}=\bigl(j_{k,1},j_{k,2},\dots,j_{k,m(k)}\bigr). \label{path}
+\end{equation}
+
+Sample of cross-reference to the formula \ref{path} in Appendix~\ref{app}.
+
+\section*{Acknowledgements}
+An interesting books about AI. 
+
+\begin{thebibliography}{9}
+
+\bibitem{r1} C. A. Athanasiadis, On a refinement of the generalized
+Catalan numbers for Weyl groups. \textit{Trans. AMS} \textbf{357} (2005), 179--196.
+\MR{2098091}
+
+\bibitem{r2} D. Bessis, The dual braid monoid,
+\textit{Ann. Sci. \'Ecole Norm. Sup.} S\'er. IV \textbf{36} (2003), 647--683.
+\MR{2032983}
+\bibitem{r3}L. Lamport, \textit{LaTeX: A Document Preparation System}, 
+Addison-Wesley, 2nd Edition, 1994.
+\end{thebibliography}
+
+\end{document}
